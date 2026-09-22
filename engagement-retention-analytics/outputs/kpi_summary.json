@@ -1,0 +1,12 @@
+{
+  "Engagement Retention Ratio (inactive churn / active churn)": 1.88,
+  "Product Depth Index (% churn reduction, multi vs single product)": 53.91,
+  "High-Balance Disengagement Rate (% of premium-balance customers inactive)": 49.88,
+  "Credit Card Stickiness Score (% churn reduction with card ownership)": 3.03,
+  "Average Relationship Strength Index (0-10 scale)": 4.58,
+  "Active Member Churn Rate (%)": 14.27,
+  "Inactive Member Churn Rate (%)": 26.85,
+  "At-Risk Premium Customers (count)": 1247,
+  "At-Risk Premium Customers Churn Rate (%)": 30.47,
+  "Overall Churn Rate (%)": 20.37
+}

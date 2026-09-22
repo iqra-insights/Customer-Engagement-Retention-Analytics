@@ -1,0 +1,41 @@
+{
+  "total_rows": 10000,
+  "duplicate_customer_ids": 0,
+  "missing_values": {
+    "Year": 0,
+    "CustomerId": 0,
+    "Surname": 0,
+    "CreditScore": 0,
+    "Geography": 0,
+    "Gender": 0,
+    "Age": 0,
+    "Tenure": 0,
+    "Balance": 0,
+    "NumOfProducts": 0,
+    "HasCrCard": 0,
+    "IsActiveMember": 0,
+    "EstimatedSalary": 0,
+    "Exited": 0
+  },
+  "hascrcard_unique": [
+    0,
+    1
+  ],
+  "isactivemember_unique": [
+    0,
+    1
+  ],
+  "exited_unique": [
+    0,
+    1
+  ],
+  "geography_values": [
+    "France",
+    "Germany",
+    "Spain"
+  ],
+  "numofproducts_range": [
+    1,
+    4
+  ]
+}

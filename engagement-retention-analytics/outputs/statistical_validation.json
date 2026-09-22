@@ -1,0 +1,91 @@
+{
+  "chi_square_tests": [
+    {
+      "variable": "EngagementProfile",
+      "chi2_statistic": 325.46,
+      "degrees_of_freedom": 3,
+      "p_value": 3.0691589041310355e-70,
+      "significant_at_0.05": true
+    },
+    {
+      "variable": "ProductTier",
+      "chi2_statistic": 342.98,
+      "degrees_of_freedom": 1,
+      "p_value": 1.4286160470013235e-76,
+      "significant_at_0.05": true
+    },
+    {
+      "variable": "Geography",
+      "chi2_statistic": 301.26,
+      "degrees_of_freedom": 2,
+      "p_value": 3.8303176053541544e-66,
+      "significant_at_0.05": true
+    },
+    {
+      "variable": "StickyCustomer",
+      "chi2_statistic": 93.33,
+      "degrees_of_freedom": 1,
+      "p_value": 4.434934989630498e-22,
+      "significant_at_0.05": true
+    },
+    {
+      "variable": "BalanceTier",
+      "chi2_statistic": 140.1,
+      "degrees_of_freedom": 3,
+      "p_value": 3.605510989871124e-30,
+      "significant_at_0.05": true
+    }
+  ],
+  "correlation_with_churn": [
+    {
+      "feature": "Age",
+      "correlation_with_churn": 0.285,
+      "p_value": 1.2399313093428973e-186
+    },
+    {
+      "feature": "RelationshipStrengthIndex",
+      "correlation_with_churn": -0.14,
+      "p_value": 7.10609468296316e-45
+    },
+    {
+      "feature": "Balance",
+      "correlation_with_churn": 0.119,
+      "p_value": 1.2755633191522023e-32
+    },
+    {
+      "feature": "NumOfProducts",
+      "correlation_with_churn": -0.048,
+      "p_value": 1.7173330048042187e-06
+    },
+    {
+      "feature": "CreditScore",
+      "correlation_with_churn": -0.027,
+      "p_value": 0.006738213892192579
+    },
+    {
+      "feature": "Tenure",
+      "correlation_with_churn": -0.014,
+      "p_value": 0.16152684949473145
+    },
+    {
+      "feature": "EstimatedSalary",
+      "correlation_with_churn": 0.012,
+      "p_value": 0.2264404280222348
+    }
+  ],
+  "confidence_intervals": {
+    "active_members": {
+      "n": 5151,
+      "churn_rate": 0.1427,
+      "ci_95_lower": 0.1331,
+      "ci_95_upper": 0.1522
+    },
+    "inactive_members": {
+      "n": 4849,
+      "churn_rate": 0.2685,
+      "ci_95_lower": 0.256,
+      "ci_95_upper": 0.281
+    },
+    "note": "Non-overlapping 95% CIs confirm the active/inactive churn gap is statistically robust, not sampling noise."
+  }
+}

@@ -1,0 +1,9 @@
+BalanceTier,IsActiveMember,Customers,ChurnRate,ChurnRatePct
+Low,0,1227,0.184,18.4
+Low,1,1273,0.11,11.0
+Medium,0,1166,0.242,24.2
+Medium,1,1334,0.105,10.5
+High,0,1209,0.342,34.2
+High,1,1291,0.188,18.8
+Premium,0,1247,0.305,30.5
+Premium,1,1253,0.169,16.9
