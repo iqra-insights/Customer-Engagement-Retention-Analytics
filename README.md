@@ -7,6 +7,8 @@
 
 A behavioral, engagement-first analysis of customer retention for a European bank, built as part of the **Unified Mentor — Data Analyst & Data Science Internship**. This project reframes churn away from demographics and balance alone, and toward **activity, product depth, and relationship strength** as the real drivers of loyalty.
 
+> 🚀 **[Live Streamlit Dashboard](https://customer-engagement-retention-analytic.streamlit.app/)** · [GitHub Repository](https://github.com/iqra-insights/Customer-Engagement-Retention-Analytics) · [Research Paper (PDF)](docs/Research_Paper.pdf)
+
 ## 📑 Table of Contents
 
 - [Project Overview](#-project-overview)
@@ -134,6 +136,8 @@ A logistic regression model was trained (scikit-learn, 75/25 stratified train/te
 
 A fully themed, brand-consistent dashboard — the same navy / ice-blue / red palette as the Research Paper and Presentation deck, not default Streamlit styling.
 
+**🌐 [Open the Live Dashboard →](https://customer-engagement-retention-analytic.streamlit.app/)**
+
 | Element | Color | Hex |
 |---|---|---|
 | Primary brand | Navy | `#1E2761` |
@@ -166,7 +170,7 @@ The dashboard only depends on `data/customer_engagement_data.csv` (loaded by rel
 ## 📁 Project Structure
 
 ```
-engagement-retention-analytics/
+Customer-Engagement-Retention-Analytics/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
